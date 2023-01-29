@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/fbbf4a88e5.js" crossorigin="anonymous"></script>
+    <style>
+        .gradient{
+            background: rgb(93,10,102);
+            background: radial-gradient(circle, rgba(93,10,102,1) 0%, rgba(0,0,0,1) 100%);
+        }
+        html {
+            height: 100%;
+            font-family: 'Open Sans', sans-serif;
+            font-size:12px;
+        }
+        
+        body {
+            margin: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Inter';
+            font-family: 'Open Sans', sans-serif;
+            font-size:12px;
+        }
+        
+        .box {
+            width: 516px;
+            height: 448px;
+            background: #181818;
+            border-radius: 28px;
+        }
+        
+        p {
+            font-size: 14px;
+            color: #fff
+        }
+        
+        h6 {
+            font-weight: 800;
+            color: #fff;
+            margin: 0;
+            font-size: 20px;
+        }
+        
+        span {
+            color: #373737;
+            font-weight: 400;
+            font-size: 16px;
+        }
+        
+        hr {
+            border: 1px solid rgb(89,10,98);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            transform: matrix(1, 0, 0, 1, 0, 0);
+        }
+        
+        .box {
+            position: relative;
+        
+        }
+        
+        .heading {
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+        }
+        
+        .heading-content {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .box-content_time {
+            display: flex;
+            justify-content: center;
+            padding-top: 20px;
+        }
+        
+        .box-content {
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 20px;
+        }
+        
+        .adress {
+            text-align: center;
+            word-wrap: break-word;
+            background: #232323;
+            padding: 5px;
+            border-radius: 20px;
+        }
+        
+        .box-footer {
+            text-align: center;
+            padding-left: 30px;
+            padding-right: 30px;
+            bottom: 20px;
+            position: absolute;
+        }
+
+        .discord-box{
+            width: 516px;
+            height: 200px;
+            background: #181818;
+            border-radius: 28px;
+        }
+        .discord-heading{
+
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+
+        }
+        .discord-logo{
+            position:relative;
+            left:20px; 
+            right:auto;
+            top:40px;
+        }
+        .discord-tag{
+            border-radius: 28px;
+            background-color:#1f1f1f;
+            position:relative;
+            left:2rem;
+            right:3rem;
+            width:55%;
+            box-shadow:none;
+            height:35px;
+            border:none;
+            color:white;
+        }
+        .submit-discord{
+
+            border-radius: 28px;
+            background-color:#1f1f1f;
+            position:relative;
+            right:auto;
+            left:5rem;
+            transform:all 1s ease-in;
+            width:7rem;
+            height:3rem;
+            border:1px solid white;
+            color:white;
+        }
+        .submit-discord:hover{
+            color:white;
+            background-color:#181818;
+            border:solid white 1px;
+
+
+        }
+        .payment-error{
+
+            color:red;
+            background-color:#3d3d3d;
+
+        }
+
+    </style>
+  </head>
+  <body class="gradient">
+
+    <div class="box discord-box" style="height:74px;display:flex; justify-content:center;align-items:center">
+        <div class="discord-heading" style="height:74px;justify-content:center;align-items:center"><b><p>Payment has bbeen cancelled.</p></b></div>
+    </div>
+
+
+<script src="../static/scripts/payment.js"></script>    
+</body>
+</html>
